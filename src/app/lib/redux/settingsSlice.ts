@@ -38,7 +38,7 @@ export type GeneralSetting = Exclude<
 
 export const DEFAULT_THEME_COLOR = "#38bdf8"; // sky-400
 export const DEFAULT_FONT_FAMILY = "Roboto";
-export const DEFAULT_FONT_SIZE = "11"; // text-base https://tailwindcss.com/docs/font-size
+export const DEFAULT_FONT_SIZE = "9"; // text-base https://tailwindcss.com/docs/font-size
 export const DEFAULT_FONT_COLOR = "#171717"; // text-neutral-800
 
 export const initialSettings: Settings = {

@@ -104,7 +104,7 @@ export const ResumePDF = ({
             fontSize: fontSize + "pt",
           }}
         >
-          {Boolean(settings.themeColor) && (
+          {/* {Boolean(settings.themeColor) && (
             <View
               style={{
                 width: spacing["full"],
@@ -112,11 +112,11 @@ export const ResumePDF = ({
                 backgroundColor: themeColor,
               }}
             />
-          )}
+          )} */}
           <View
             style={{
               ...styles.flexCol,
-              padding: `${spacing[0]} ${spacing[20]}`,
+              padding: `${spacing[0]} ${spacing[10]}`,
             }}
           >
             <ResumePDFProfile
